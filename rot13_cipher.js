@@ -38,7 +38,7 @@ function rot13(string) {
       let rotatedLowerCharIndex = findRotate13Index(char);
       rotString += ALPHABET[rotatedLowerCharIndex];
     } else if (charIsUpperCase(char)) {
-      let rotatedUpperCharIndex = findRotate13Index(char.toLowerCase())
+      let rotatedUpperCharIndex = findRotate13Index(char.toLowerCase());
       rotString += ALPHABET[rotatedUpperCharIndex].toUpperCase();
     }
   }
